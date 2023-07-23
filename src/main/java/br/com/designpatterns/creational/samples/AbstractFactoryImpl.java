@@ -102,7 +102,7 @@ public final class AbstractFactoryImpl {
         Car automatic = CarFactory.buildCar(new AutomaticCarFactory("Pulse"));
         System.out.println(automatic);
 
-        Car manual = new ManualCarFactory("Pulse").buildCar();
+        Car manual = CarFactory.buildCar(new ManualCarFactory("Pulse"));
         System.out.println(manual);
     }
 }
