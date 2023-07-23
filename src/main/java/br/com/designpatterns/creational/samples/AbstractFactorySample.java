@@ -96,7 +96,7 @@ class CarFactory {
     }
 }
 
-public final class AbstractFactoryImpl {
+public final class AbstractFactorySample {
     public static void main(String[] args) {
 
         Car automatic = CarFactory.buildCar(new AutomaticCarFactory("Pulse"));
