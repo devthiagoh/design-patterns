@@ -1,1 +1,27 @@
-# design-patterns
+#Design Patterns Define and Samples in Java
+
+- Creational:
+  - Abstract Factory;
+  - Factory;
+  - Builder;
+  - Prototype;
+  - Singleton;
+- Structural:
+  - Adapter;
+  - Brigde;
+  - Composite;
+  - Decorator;
+  - Facade;
+  - Flyweight;
+  - Proxy;
+- Behavioral:
+  - Chain of Responsibility
+  - Iterator;
+  - Memento;
+  - State;
+  - Template Method;
+  - Command;
+  - Mediator;
+  - Observer;
+  - Strategy;
+  - Visitor;
