@@ -15,7 +15,7 @@ package br.com.designpatterns.creational.abstractfactory;
  */
 
 
-interface Car { }                                                //Interface que defini a família de objetos
+interface Car { }                                               //Interface que defini a família de objetos
 
 class AutomaticCar implements Car {                             //Objeto da família
     public AutomaticCar(){
