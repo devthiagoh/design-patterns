@@ -1,4 +1,4 @@
-package br.com.designpatterns.creational;
+package br.com.designpatterns.creational.abstractfactory;
 
 /**
  *  Abstract Factory
@@ -15,19 +15,17 @@ package br.com.designpatterns.creational;
  */
 
 
-interface Car {                                                 //Interface que defini a família de objetos
-    String gear();
-}
+interface Car { }                                                //Interface que defini a família de objetos
 
 class AutomaticCar implements Car {                             //Objeto da família
-    public String gear(){
-        return "Automatic";
+    public AutomaticCar(){
+        System.out.println("Automatic");
     }
 }
 
 class ManualCar implements Car {                                //Objeto da família
-    public String gear(){
-        return "Manual";
+    public ManualCar(){
+        System.out.println("Manual");
     }
 }
 
@@ -59,10 +57,6 @@ public final class AbstractFactory {
     public static void main(String[] args){
 
         Car automatic = CarFactory.buildCar(new AutomaticCarFactory()); //Cliente passa para fábrica da família de objetos
-        System.out.println(automatic.gear());                           //a fábrica do objeto que ele deseja.
-
-        Car manual = CarFactory.buildCar(new ManualCarFactory());
-        System.out.println(manual.gear());
+        Car manual = CarFactory.buildCar(new ManualCarFactory());       //a fábrica do objeto que ele deseja.
     }
-
 }
