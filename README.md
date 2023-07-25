@@ -3,12 +3,12 @@
 | Creational        | Structural | Behavioral              |
 | ----------------- | ---------- | ----------------------- |
 | Abstract Factory  | Adapter    | Chain of Responsibility |
-| Factory           | Brigde     | Iterator                |
-| Builder           | Composite  | Memento                 |
-| Prototype         | Decorator  | State                   |
-| Singleton         | Facade     | Template Method         |
-|                   | Flyweight  | Command                 |
-|                   | Proxy      | Mediator                |
-|                   |            | Observer                |
+| Builder           | Brigde     | Command                 |
+| Factory           | Composite  | Iterator                |
+| Prototype         | Decorator  | Mediator                |
+| Singleton         | Facade     | Memento                 |
+|                   | Flyweight  | Observer                |
+|                   | Proxy      | State                   |
 |                   |            | Strategy                |
+|                   |            | Template Method         |
 |                   |            | Visitor                 |
