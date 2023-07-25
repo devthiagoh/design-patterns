@@ -1,27 +1,14 @@
-#Design Patterns Define and Samples in Java
+# Design Patterns Define and Samples in Java
 
-- Creational:
-  - Abstract Factory;
-  - Factory;
-  - Builder;
-  - Prototype;
-  - Singleton;
-- Structural:
-  - Adapter;
-  - Brigde;
-  - Composite;
-  - Decorator;
-  - Facade;
-  - Flyweight;
-  - Proxy;
-- Behavioral:
-  - Chain of Responsibility
-  - Iterator;
-  - Memento;
-  - State;
-  - Template Method;
-  - Command;
-  - Mediator;
-  - Observer;
-  - Strategy;
-  - Visitor;
+| Creational        | Structural | Behavioral              |
+| ----------------- | ---------- | ----------------------- |
+| Abstract Factory  | Adapter    | Chain of Responsibility |
+| Factory           | Brigde     | Iterator                |
+| Builder           | Composite  | Memento                 |
+| Prototype         | Decorator  | State                   |
+| Singleton         | Facade     | Template Method         |
+|                   | Flyweight  | Command                 |
+|                   | Proxy      | Mediator                |
+|                   |            | Observer                |
+|                   |            | Strategy                |
+|                   |            | Visitor                 |
